@@ -6,7 +6,7 @@ This project uses coordinates to map an image provided and describes details abo
 
 Navigate into the backend folder and do npm i to install all dependencies
 Do npm start to setup server
-Open a new terminal now navigate to eyedrove folder and do npm i to install all dependencies
+Open a new terminal now navigate to eyerow folder and do npm i to install all dependencies
 Do npm start to start react project
 
 # How it works
