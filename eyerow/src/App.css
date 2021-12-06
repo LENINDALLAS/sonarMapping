@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.map {
+  position: relative;
+  border: 3px solid #000;
+  padding: 4px;
+  border-radius: 8px;
+}
+.mark {
+  /* visibility: hidden; */
+  background-color: rgb(10, 18, 122);
+  color: rgb(255, 254, 254);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.mark::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgb(10, 18, 122) transparent;
+}
+
+.pointer {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(216, 0, 0);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  font-size: 1rem;
+  padding: 5px;
+  color: #000;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(1, 240, 248);
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
