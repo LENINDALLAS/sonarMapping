@@ -1,1 +1,12 @@
-[{"title":"Step - Apron step","coords":"55,167,764,270","shape":"rect"},{"title":"dsfads","coords":"591,19,690,145","shape":"rect"},{"title":"sdfasdfd","coords":"591,19,690,145","shape":"rect"}]
+[
+    {
+        "title": "Step - Apron step",
+        "coords": "55,167,764,270",
+        "shape": "rect"
+    },
+    {
+        "title": "Crater - at location 1",
+        "coords": "591,19,690,145",
+        "shape": "rect"
+    }
+]
